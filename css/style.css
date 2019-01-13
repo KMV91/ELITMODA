@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "mont";
+    src: url(../fonts/mont.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "logo";
+    src: url(../fonts/logo.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.upperhead-shell{
+	background-color: #f1d995;
+}
+.upperhead{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.right-upperhead{
+	text-align: right;
+}
+.bottomhead{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.navbar-brand{
+	font-family: "mont";
+	font-size: 35px;
+	font-weight: 700;
+}
+.navbar-default .navbar-brand {
+    color: black;
+}
+.logo{
+	font-family: "logo";
+	font-size: 30px;
+	padding: 10px;
+	color: black;
+	background-color: #f1d995;
+	border-radius: 5px;
+	margin-right: 15px;
+}
+.logo:before {
+  content: "\69";
+}
+.carousel-caption{
+	color: black;
+	background-color: #f1d995;
+}
+.attention{
+	text-align: center;
+}
+.attention a{
+	text-decoration: none;
+	color: black;
+}
+.attention img{
+	max-width: 100%;
+}
