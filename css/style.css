@@ -58,3 +58,37 @@
 .attention img{
 	max-width: 100%;
 }
+.logo-bottom{
+    font-family: "logo";
+    font-size: 35px;
+}
+footer{
+    background-color: #f1d995;
+    text-align: center;
+}
+footer h2{
+    font-family: "mont";
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+}
+footer ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+footer li{
+    list-style-type: none;
+}
+footer a,p{
+    color: black;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.bottomfooter{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
