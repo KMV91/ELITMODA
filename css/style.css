@@ -66,12 +66,12 @@
     display: inline-block;
     font-weight: 400;
     vertical-align: middle;
-    border: 1px solid #f1d995;
+    border: 1px solid #ccb77d;
     padding: .375rem .75rem;
     font-size: 1rem;
     border-radius: .20rem;
     text-decoration: none;
-    color: #f1d995;
+    color: #ccb77d;
 }
 .goto-btn:hover{
     color: black;
@@ -91,6 +91,56 @@
 .logo-bottom{
     font-family: "logo";
     font-size: 35px;
+}
+.page-clothes img{
+    max-width: 100%;
+    padding-bottom: 1em;
+}
+.size-list, .color-list{
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+.size-list li{
+    display: inline-block;
+    padding: .5em;
+    min-width: 3em;
+    border: 1px solid black;
+    text-align: center;
+}
+.color-list li{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    outline: none;
+}
+.color-list img{
+    width: 30px;
+    height: 44px;
+}
+.line-border{
+    width: 100%;
+    height: 1px;
+    background-color: #f1d995;
+    margin:3em 0em;
+}
+.yellow-btn{
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    border: 1px solid #ccb77d;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .20rem;
+    color: black;
+    background-color: #f1d995;
+    text-decoration: none;
+}
+.yellow-btn:hover{
+    text-decoration: none;
+    background-color: #ccb77d;
+    color: white;
 }
 footer{
     background-color: #f1d995;
@@ -122,3 +172,4 @@ footer a,p{
     padding-bottom: 20px;
     text-align: left;
 }
+
